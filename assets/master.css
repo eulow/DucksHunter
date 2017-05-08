@@ -1,0 +1,10 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+canvas {
+  border: 1px solid black;
+  cursor: crosshair;
+  background-color: #77d0f3;
+}
