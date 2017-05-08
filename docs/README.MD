@@ -1,4 +1,4 @@
-# Duck Hunt
+# Ducks Hunter
 
 ### Background
 
