@@ -19,7 +19,6 @@ span, article, footer, time, small, dl, dt, dd {
 
 body {
   background-image: url("./images/wallpaper.jpg");
-  background-position-y: -100px;
   display: flex;
   justify-content: center;
   margin-top: 50px;
