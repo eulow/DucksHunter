@@ -3,12 +3,55 @@
   <head>
     <script src="https://code.createjs.com/easeljs-0.8.2.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Erica+One" rel="stylesheet">
+    <script src="https://use.fontawesome.com/db1f8543fe.js"></script>
+    <script>
+      function play() {
+        const startSound = new Audio('assets/audio/start.mp3');
+        startSound.currentTime = 0;
+        startSound.play();
+      }
+    </script>
     <link rel="stylesheet" type="text/css" href="./assets/master.css">
+    <link rel="icon" type="image/png" href="./assets/images/logo.png"/>
     <script src="./lib/bundle.js"></script>
     <meta charset="utf-8">
     <title>Ducks Hunter</title>
   </head>
   <body>
-    <canvas id="canvas" width="640" height="480"></canvas>
+    <div class="main-content">
+      <canvas id="canvas" width="640" height="480"></canvas>
+      <aside class="right-container">
+        <div class="instructions">
+          <h1>DUCKS HUNTER</h1>
+          <h2>HOW TO PLAY:</h2>
+          <ul>
+            <li>1. Click start to begin</li>
+            <li>2. There are two ducks</li>
+            <li>3. You have three bullets</li>
+            <li>4. Can you get them?</li>
+          </ul>
+        </div>
+        <div class="ducks-github">
+          <a href="https://github.com/eulow/DucksHunter/tree/gh-pages" target="_blank" onmouseover="play()"><h2>SEE THE CODE ON GITHUB</h2></a>
+        </div>
+
+        <div class="links">
+          <ul>
+            <li>
+              <a href="http://www.eugenelow.me/" target="_blank"><i class="fa fa-address-card fa-3x" aria-hidden="true" onmouseover="play()"></i></a>
+            </li>
+            <li>
+              <a href="https://github.com/eulow" target="_blank" onmouseover="play()"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/eugene-low/" target="_blank" onmouseover="play()"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+
   </body>
 </html>
