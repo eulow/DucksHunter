@@ -1,10 +1,85 @@
+html, body, header, nav, h1, h2, h3, h4, h5, a,
+ul, li, strong, main, button,
+section, img, div, p, form,
+fieldset, label, input, textarea,
+span, article, footer, time, small, dl, dt, dd {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  color: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  box-sizing: inherit;
+  background: transparent;
+  -webkit-font-smoothing: antialiased;
+  list-style: none;
+}
+
 body {
+  background-image: url("./images/wallpaper.jpg");
+  background-position-y: -100px;
   display: flex;
   justify-content: center;
+  margin-top: 50px;
+}
+
+.main-content {
+  min-width: 1080px;
+  display: flex;
 }
 
 canvas {
   border: 2px solid #dddddd;
   cursor: url(images/cursor.png) 14 14, auto;
   background-color: #77d0f3;
+}
+
+.right-container {
+  font-family: 'Press Start 2P';
+  color: #fff;
+  text-shadow: 1px 1px 7px rgba(150, 150, 150, 0.94);
+  width: 400px;
+  padding: 0 20px;
+}
+
+.right-container h1 {
+  font-size: 24px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.right-container h2 {
+  font-size: 18px;
+  margin: 40px 0 30px 0;
+}
+
+.right-container .instructions ul li {
+  font-size: 16px;
+  margin: 10px 0;
+  line-height: 120%;
+}
+
+.right-container .ducks-github {
+  font-size: 18px;
+}
+.right-container a:hover {
+  color: #28F8FE;
+}
+
+.links h3 {
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.links ul {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-around;
+  width: 300px;
 }
