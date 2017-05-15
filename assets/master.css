@@ -62,6 +62,7 @@ canvas {
 
 .right-container .ducks-github {
   font-size: 18px;
+  text-align: center;
 }
 .right-container a:hover {
   color: #28F8FE;
