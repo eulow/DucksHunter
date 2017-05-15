@@ -19,17 +19,17 @@ span, article, footer, time, small, dl, dt, dd {
 
 body {
   background-image: url("./images/wallpaper.jpg");
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
+  background-repeat:repeat-x;
+  width: 1080px;;
+  margin: 50px auto 0;
+  display: block;
 }
 
 .main-content {
-  min-width: 1080px;
   display: flex;
 }
 
-canvas {
+#canvas {
   border: 2px solid #dddddd;
   cursor: url(images/cursor.png) 14 14, auto;
   background-color: #77d0f3;
